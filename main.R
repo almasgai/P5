@@ -40,5 +40,6 @@ plot(f1, main = "Cross Section Area (f1)", xlab = "Generation No.", ylab = "Best
 plot(f2, main = "Static Deflection (f2)", xlab = "Generation No.", ylab = "Best Particle Fitness")
 plot(f3, main = "F = a * f1 + b * f2", xlab = "Generation No.", ylab = "Best Particle Fitness")
 
-plot(GA1)
-plot(GA2)
+plot(GA1, main='GA1')
+plot(GA2, main='GA2')
+plot(GA3, main='GA3')
